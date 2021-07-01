@@ -1,7 +1,7 @@
 import React from "react";
 
-interface Props {}
-
-export const Item = (props: Props) => {
-  return <div>Item Component</div>;
+const Item = ({ name }) => {
+  return <div>{name} Component</div>;
 };
+
+export default Item;

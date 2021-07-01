@@ -1,9 +1,11 @@
+import Item from "./Item"
 
 function App() {
+
   return (
     <div >
       Hi
-      <Item />
+      <Item name="Pharmaton xxx" />
     </div>
   );
 }
